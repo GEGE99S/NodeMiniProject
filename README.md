@@ -2,9 +2,10 @@
 
 이 프로젝트는 Nodejs, MySql+Sequelize, Passport, DotEnv 개발 환경을 토대로 진행하였습니다!
 
-## 프로젝트 GIF
+## 프로젝트 PDF
 
-[Mini SNS](https://github.com/GEGE99S/NodeMiniProject/blob/master/%EC%9D%B4%EA%B2%BD%EC%88%98%20Node%20Express%20%EB%AF%B8%EB%8B%88%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8.pptx)
+[이경수 Node Express 미니프로젝트.pdf](https://github.com/GEGE99S/NodeMiniProject/files/14583972/Node.Express.pdf)
+
 
 
 ---
