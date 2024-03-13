@@ -1,0 +1,254 @@
+* { 
+  box-sizing: border-box; 
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body { margin: 0; padding: 0; height: 100%; }
+.btn {
+  display: inline-block;
+  padding: 10px 5px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: white;
+  border: 1px solid silver;
+  color: #3C8AB7;
+  vertical-align: top;
+  font-size: 12px;
+  font-family: 'Pretendard-Regular';
+}
+
+.btn:hover{
+  color: #545479;
+}
+
+#logout{
+  float: right;
+}
+
+input[type='text'], input[type='email'], input[type='password'], textarea {
+  border-radius: 7px;
+  height: 37px;
+  padding: 10px;
+  border: 1px solid silver;
+  font-family: 'Pretendard-Regular';
+}
+.container { width: 100%; height: 100%; }
+@media screen and (min-width: 800px) {
+  .container { width: 800px; margin: 0 auto; }
+}
+.input-group { margin-bottom: 15px; }
+.input-group label { 
+  width: 25%; display: inline-block; 
+  color: #545479;
+  font-family: 'Pretendard-Regular';
+}
+.input-group input { width: 70%; }
+.half { float: left; width: 50%; margin: 10px 0; }
+
+.right { 
+  float: right;
+  margin-left: 5px;
+}
+
+.twit-content{
+  font-weight: 550;
+  padding: 10px;
+}
+
+.profile-wrap {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 0;
+}
+@media screen and (min-width: 800px) {
+  .profile-wrap { width: 290px; margin-bottom: 0; }
+}
+.profile {
+  text-align: left;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 7px;
+  border: 1px solid silver;
+  background: #93b8df;
+}
+.user-name { 
+  font-weight: bold;
+  font-size: 18px; 
+}
+.count { 
+  font-weight: bold; 
+  color: crimson; 
+  font-size: 18px;
+  text-align: center;
+}
+.follow_name{
+  text-align: center;
+}
+.timeline {
+  margin-top: 10px;
+  width: 100%;
+  display: inline-block;
+  border-radius: 7px;
+  vertical-align: top;
+}
+@media screen and (min-width: 800px) { .timeline { width: 500px; } }
+#twit-form {
+  border-bottom: 1px solid silver;
+  padding: 10px;
+  background: #93b8df;
+  overflow: hidden;
+  border-radius: 7px;
+}
+#img-preview { max-width: 100%; }
+#img-label {
+  float: left;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #545479;
+  background-color: white;
+  border: none;
+  padding: 0 10px;
+  color: #545479;
+  font-size: 12px;
+  padding: 10px 5px;
+  font-size: 12px;
+  font-family: 'Pretendard-Regular';
+}
+#img { display: none; }
+#twit { width: 100%; min-height: 72px; }
+#twit-btn {
+  float: right;
+  color: #545479;
+  background: white;
+  border: none;
+}
+.twit {
+  border: 1px solid silver;
+  border-radius: 4px;
+  padding: 10px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.twit-author { 
+  display: inline-block; 
+  font-weight: bold; 
+  margin-right: 10px; 
+}
+
+.twit-follow {
+  background: #fff;
+  border: none;
+  color: #C34F71;
+  font-weight: 550;
+  font-size: 14px;
+  cursor: pointer;
+  float: right;
+}
+.twit-img { 
+  text-align: center; 
+}
+.twit-img img { 
+  max-width: 75%;
+}
+.error-message {
+   color: red; font-weight: bold; 
+  }
+#search-form { 
+  text-align: right;
+}
+#join-form { padding: 10px; text-align: center; }
+#hashtag-form {
+  display: flex;
+  justify-content: space-between;
+}
+#hashtag-form input{
+  width: 80%;
+}
+#hashtag-form button{
+  width: 15%;
+}
+
+footer { text-align: center; }
+
+
+.write_name{
+  padding: 10px;
+  border-right: 1px solid silver;
+}
+
+.write_name:first-child{
+  margin-top: 10px;
+}
+
+.write_date{
+  padding: 10px;
+  border-bottom: 1px solid silver;
+}
+
+.serch_input{
+  margin: 10px 0;
+}
+
+.close-comment, .open-comment{
+  width: 100%;
+  background-color: #56A893;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.open-comment:hover{
+  background-color: #42958E;
+  color: white;
+}
+
+.close-comment:hover{
+  background-color: #42958E;
+  color: white;
+}
+
+.comment-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-form_div{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.comment-form_div input{
+  width: 80%;
+}
+
+.comment-form_div button{
+  width: 15%;
+}
+
+.write_button{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-twit{
+  border: none;
+  color: #C34F71;
+  font-weight: 550;
+  float: right;
+}
+
+.font{
+  font-family: 'Pretendard-Regular';
+}

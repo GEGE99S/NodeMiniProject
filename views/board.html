@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div class="timeline">
+    <form action="/board" id="board-form" method="post">
+      <div class="input-group">
+        <label for="subject">제목</label>
+        <input id="subject" type="text" name="subject" required autofocus>
+      </div>
+      <div class="input-group">
+        <label for="creater">작성자</label>
+        <input id="creater" type="text" name="creater" required autofocus>
+      </div>
+      <div class="input-group">
+        <label for="content">게시물 내용</label>
+        <input id="content" type="text" name="content" required>
+      </div>
+      <div class="input-group">
+        <button id="submit" type="submit" class="btn">작성 완료</button>
+      </div>
+    </form>
+  </div>
+{% endblock %}
+
+{% block script %}
+  
+{% endblock %}
